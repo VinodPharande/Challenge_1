@@ -1,4 +1,4 @@
-# This will be implemented using Terraform as IaaC tool, GCP as a cloud provider.    
+# This will be implement using Terraform as IaaC tool, GCP as a cloud provider.    
 
 ## Understanding notes: 
 
