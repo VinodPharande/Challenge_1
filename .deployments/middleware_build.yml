@@ -1,0 +1,10 @@
+name: 'gcr.io/cloud-builders/docker'
+args: [ 'build', '-t', '$_REGION-docker.pkg.dev/$PROJECT_ID/$_BASENAME-app/api', '.' ]
+  ```
+#### Push API container to Artifact Registry
+Pushing the container to Artifact Registry makes it possible for Cloud Run to 
+get the image and serve it.
+
+``` yaml
+name: 'gcr.io/cloud-builders/docker'
+args: ['push', '$_REGION-docker.pkg.dev/$PROJECT_ID/$_BASENAME-app/api']  

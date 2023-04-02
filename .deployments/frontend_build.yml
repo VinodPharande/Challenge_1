@@ -1,0 +1,4 @@
+name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+entrypoint: bash
+args: [ './massage.sh', '$_REGION' ]
+
